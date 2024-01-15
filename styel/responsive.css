@@ -1,7 +1,10 @@
 @media screen and (max-width: 600px) {
 
+    body{
+        width: 90vw;
+    }
     header nav ul,
-    header section ,.first {
+    header section ,.first ,.fourth {
         flex-direction: column;
     }
     header nav ul {
@@ -23,6 +26,9 @@
     .img-container {
         display: flex;
         flex-direction: column;
+    }
+    .fourth p {
+        width: 100vw;
     }
 }
 
