@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;0,900;0,1000;1,500&display=swap');
+
+.text-400 {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 400;
+}
+
+.text-800 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 800;
+}
+
+li {
+    list-style: none;
+    padding-left: 44px;
+    font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
+    color: #424247;
+}
+
+
+body {
+    width: 81.25vw;
+    margin: 0 auto;
+}
+
+
+header {
+    margin: 50px auto;
+}
+
+.explore {
+    font-size: 36px;
+}
+
+.header-title {
+    color: white;
+    font-size: 5.5vw;
+    padding-top: 7.5vw;
+}
+
+header nav,
+header nav div,
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    padding: 16px;
+}
+
+header>div {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    max-width: 800px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    padding: 16px;
+}
+
+input,
+button,
+select,
+option {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    width: 12vw;
+    height: 52px;
+    border: 0px solid white;
+    border-radius: 8px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #FF5400;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first div h3 {
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.first div p {
+    text-align: left;
+    max-width: 500px;
+}
+
+.text-800-1 {
+    grid-template-areas: 1;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.img-container p {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    width: auto;
+    height: 300px;
+    margin: 0px;
+}
+
+.text-800_1 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 7;
+}
+
+.text-800_2 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 8 / span 15;
+}
+
+.text-800_3 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 4;
+}
+
+.text-800_4 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 5 / span 6;
+}
+
+.text-800_5 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 11 / span 12;
+}
+
+.text-800_6 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 6;
+}
+
+.text-800_7 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 7 / span 16;
+}

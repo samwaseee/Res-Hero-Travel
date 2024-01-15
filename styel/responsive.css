@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+
+    header nav ul,
+    header section ,.first {
+        flex-direction: column;
+    }
+    header nav ul {
+        display: none;
+    }
+
+    input,
+    button,
+    select,
+    option {
+        width: 255px;
+    }
+    .explore{
+        font-size: 22px;
+    }
+    .icon{
+        padding-left: 60px;
+    }
+}
+
+@media screen and (min-width : 601px) {
+    .icon {
+        display: none;
+    }
+}
