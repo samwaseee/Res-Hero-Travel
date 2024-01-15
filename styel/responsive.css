@@ -20,6 +20,10 @@
     .icon{
         padding-left: 60px;
     }
+    .img-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width : 601px) {
