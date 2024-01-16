@@ -4,7 +4,7 @@
         width: 90vw;
     }
     header nav ul,
-    header section ,.first ,.fourth , .five {
+    header section ,.first ,.fourth , .five , .wedding div{
         flex-direction: column;
     }
     header nav ul {
@@ -45,6 +45,9 @@
     }
     footer{
         margin: 0 -7vw;
+    }
+    .wedding div p{
+        background-size: 230%;
     }
 
 }

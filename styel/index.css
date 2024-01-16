@@ -207,7 +207,8 @@ button {
     text-align: center;
 }
 
-.third h3 {
+.third h3 ,.wedding h3{
+    text-align: center;
     font-size: 2.25rem;
     margin-top: 10vw;
 }
@@ -321,4 +322,17 @@ footer{
     text-align: center;
     margin: 0vw;
     padding: 6vw;
+}
+.wedding div{
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 10vw;
+}
+
+.wedding div p{
+    background : url('../Images/pngwing.com.png');
+    background-size: 100%;
+    height: auto;
+    font-size: 1.25rem;
+    padding: 20px;
 }
