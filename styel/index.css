@@ -255,8 +255,6 @@ button {
 
 .vid {
     border-radius: 16px;
-    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 40089.png');
-    background-size: cover;
 }
 
 .vid h3 {
