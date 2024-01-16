@@ -102,7 +102,7 @@ button {
     background: #FF5400;
 }
 
-.first {
+.first , .five{
     display: flex;
     justify-content: space-between;
 }
@@ -262,11 +262,27 @@ button {
     text-align: center;
     padding: 8vw;
 }
-.player{
+
+.player {
     color: white;
     display: flex;
     justify-content: space-between;
 }
-.player img{
+
+.player img {
     padding: 0 15px;
+}
+
+.newsletter-crad {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter-crad input {
+    width: 400px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 16px 0;
+    padding-left: 10px;
 }
