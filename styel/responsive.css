@@ -4,11 +4,14 @@
         width: 90vw;
     }
     header nav ul,
-    header section ,.first ,.fourth {
+    header section ,.first ,.fourth , .five {
         flex-direction: column;
     }
     header nav ul {
         display: none;
+    }
+    button{
+        margin: 20px 0;
     }
 
     input,
@@ -17,8 +20,11 @@
     option {
         width: 255px;
     }
-    .explore{
+    .explore , .discout h3{
         font-size: 22px;
+    }
+    .discout p{
+        font-size: 14px;
     }
     .icon{
         padding-left: 60px;
@@ -28,8 +34,19 @@
         flex-direction: column;
     }
     .fourth p {
-        width: 100vw;
+        width: 86vw;
     }
+    .img-news img{
+        width: 100%;
+    }
+    .discout{
+        left: 28vw;
+        top: -40vw;
+    }
+    footer{
+        margin: 0 -7vw;
+    }
+
 }
 
 @media screen and (min-width : 601px) {
