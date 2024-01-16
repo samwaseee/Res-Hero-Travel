@@ -121,4 +121,19 @@
     .fourth p {
         width: 86vw;
     }
+    .container1 .blur,
+    .container3 .blur {
+        right: -35px;
+    }
+
+    .container1 .text,
+    .container3 .text , .container2 .text{
+        right: -65px;
+    }
+    .container1 > img,
+    .container2 > img,
+    .container3 > img {
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+    }
 }

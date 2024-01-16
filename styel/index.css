@@ -243,16 +243,19 @@ button {
     background: rgba(41, 206, 246, 0.05);
 }
 
-.bonus h3{
+.bonus h3 {
     text-align: center;
     font-size: 2.5rem;
 }
-.bonus > p{
+
+.bonus>p {
     text-align: center;
 }
+
 .bonus h4 {
     font-size: 1.5rem;
 }
+
 .bonus h5 {
     font-size: 1.25rem;
     margin: 15px 0;
@@ -297,30 +300,40 @@ button {
     backdrop-filter: blur(2.5px);
     right: -40px;
 }
-.container1 .blur , .container3 .blur{
+
+.container1 .blur,
+.container3 .blur {
     right: -535px;
 }
-.container3 .blur{
+
+.container3 .blur {
     top: 40px;
 }
-.container3 .text{
+
+.container3 .text {
     top: -800px;
 }
-.container1 .text , .container3 .text{
+
+.container1 .text,
+.container3 .text {
     right: -575px;
 }
+
 .container1 img,
 .container2 img,
 .container3 img {
     top: -450px;
     z-index: -1;
 }
-.container2 img{
+
+.container2 img {
     top: -426px;
 }
+
 .container3 img {
     top: -402px;
 }
+
 .text {
     max-width: 50vw;
     top: -850px;
@@ -359,9 +372,30 @@ iframe {
     justify-content: space-between;
 }
 
-.player img {
-    padding: 0 15px;
+.wed {
+    width: 812px;
+    max-width: 80vw;
+    height: 408px;
+    background-size: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -51.96%, rgba(19, 19, 24, 0.00) 100%) , url('../Images/wedding.jpg');
+    background-repeat: no-repeat;
 }
+.wedding div {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-bottom: 10vw;
+}
+
+.wedding div p {
+    background: url('../Images/pngwing.com.png');
+    background-size: 105%;
+    height: auto;
+    font-size: 1.25rem;
+    padding: 20px;
+}
+
 
 .newsletter-crad {
     width: 68vw;
@@ -413,16 +447,3 @@ footer {
     padding: 6vw;
 }
 
-.wedding div {
-    display: flex;
-    border-radius: 16px;
-    margin-bottom: 10vw;
-}
-
-.wedding div p {
-    background: url('../Images/pngwing.com.png');
-    background-size: 100%;
-    height: auto;
-    font-size: 1.25rem;
-    padding: 20px;
-}
