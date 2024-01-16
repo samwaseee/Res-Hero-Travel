@@ -1,16 +1,23 @@
 @media screen and (max-width: 600px) {
 
-    body{
+    body {
         width: 90vw;
     }
+
     header nav ul,
-    header section ,.first ,.fourth , .five , .wedding div{
+    header section,
+    .first,
+    .fourth,
+    .five,
+    .wedding div {
         flex-direction: column;
     }
+
     header nav ul {
         display: none;
     }
-    button{
+
+    button {
         margin: 20px 0;
     }
 
@@ -20,34 +27,77 @@
     option {
         width: 255px;
     }
-    .explore , .discout h3{
+
+    .explore,
+    .discout h3 {
         font-size: 22px;
     }
-    .discout p{
+
+    .discout p {
         font-size: 14px;
     }
-    .icon{
+
+    .icon {
         padding-left: 60px;
     }
+
     .img-container {
         display: flex;
         flex-direction: column;
     }
+
     .fourth p {
         width: 86vw;
     }
-    .img-news img{
+
+    .img-news img {
         width: 100%;
     }
-    .discout{
+
+    .discout {
         left: 24vw;
         top: -40vw;
     }
-    footer{
+
+    footer {
         margin: 0 -7vw;
     }
-    .wedding div p{
+
+    .wedding div p {
         background-size: 230%;
+    }
+
+    .container1 .blur,
+    .container3 .blur {
+        right: -35px;
+    }
+
+    .container1 .text,
+    .container3 .text , .container2 .text{
+        right: -65px;
+    }
+
+    .container1 > img,
+    .container2 > img,
+    .container3 > img {
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+    }
+    .blur{
+        width: 60vw;
+    }
+    .bonus h4 {
+        font-size: 1rem;
+    }
+    .bonus h5 {
+        font-size: .875rem;
+        margin: 15px 0;
+    }
+    .bonus p{
+        font-size: .65rem;
+    }
+    .bonus button{
+        max-width: 40vw;
     }
 
 }
@@ -58,10 +108,16 @@
     }
 }
 
-@media screen and (min-width : 601px) and (max-width: 992px)  {
-    header nav ,.first ,.fourth , .five , .wedding div{
+@media screen and (min-width : 601px) and (max-width: 992px) {
+
+    header nav,
+    .first,
+    .fourth,
+    .five,
+    .wedding div {
         flex-direction: column;
     }
+
     .fourth p {
         width: 86vw;
     }
