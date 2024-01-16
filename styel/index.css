@@ -253,8 +253,10 @@ button {
     margin-right: 5vw;
 }
 
-.vid {
+iframe{
     border-radius: 16px;
+    max-width: 80vw;
+    margin-top: 6vw;
 }
 
 .vid h3 {
@@ -298,7 +300,7 @@ button {
     max-height: 120px;
     position: relative;
     top: -230px;
-    left: 22.22vw;
+    left: 317px;
     transform: rotate(-30deg);
     border-radius: 16px;
     background: #FF5400;
