@@ -40,7 +40,7 @@
         width: 100%;
     }
     .discout{
-        left: 28vw;
+        left: 24vw;
         top: -40vw;
     }
     footer{
@@ -55,5 +55,14 @@
 @media screen and (min-width : 601px) {
     .icon {
         display: none;
+    }
+}
+
+@media screen and (min-width : 601px) and (max-width: 992px)  {
+    header nav ,.first ,.fourth , .five , .wedding div{
+        flex-direction: column;
+    }
+    .fourth p {
+        width: 86vw;
     }
 }
